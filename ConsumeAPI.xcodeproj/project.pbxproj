@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7480CDF252BFA8300C84FE8 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7480CDE252BFA8300C84FE8 /* WebView.swift */; };
+		E7480CE2252BFB8800C84FE8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7480CE1252BFB8800C84FE8 /* DetailView.swift */; };
 		E7BE079B252A071A0056F614 /* ConsumeAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BE079A252A071A0056F614 /* ConsumeAPIApp.swift */; };
 		E7BE079D252A071A0056F614 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BE079C252A071A0056F614 /* ContentView.swift */; };
 		E7BE079F252A071B0056F614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BE079E252A071B0056F614 /* Assets.xcassets */; };
 		E7BE07A2252A071B0056F614 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BE07A1252A071B0056F614 /* Preview Assets.xcassets */; };
+		E7BE07AB252A07320056F614 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BE07AA252A07320056F614 /* WebService.swift */; };
+		E7BE07AE252A09050056F614 /* MNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BE07AD252A09050056F614 /* MNews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E7480CDE252BFA8300C84FE8 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E7480CE1252BFB8800C84FE8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		E7BE0797252A071A0056F614 /* ConsumeAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsumeAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7BE079A252A071A0056F614 /* ConsumeAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumeAPIApp.swift; sourceTree = "<group>"; };
 		E7BE079C252A071A0056F614 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7BE079E252A071B0056F614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7BE07A1252A071B0056F614 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E7BE07A3252A071B0056F614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BE07AA252A07320056F614 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		E7BE07AD252A09050056F614 /* MNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 			children = (
 				E7BE079A252A071A0056F614 /* ConsumeAPIApp.swift */,
 				E7BE079C252A071A0056F614 /* ContentView.swift */,
+				E7BE07AA252A07320056F614 /* WebService.swift */,
 				E7BE079E252A071B0056F614 /* Assets.xcassets */,
 				E7BE07A3252A071B0056F614 /* Info.plist */,
 				E7BE07A0252A071B0056F614 /* Preview Content */,
+				E7BE07AD252A09050056F614 /* MNews.swift */,
+				E7480CDE252BFA8300C84FE8 /* WebView.swift */,
+				E7480CE1252BFB8800C84FE8 /* DetailView.swift */,
 			);
 			path = ConsumeAPI;
 			sourceTree = "<group>";
@@ -138,6 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7BE07AE252A09050056F614 /* MNews.swift in Sources */,
+				E7480CE2252BFB8800C84FE8 /* DetailView.swift in Sources */,
+				E7480CDF252BFA8300C84FE8 /* WebView.swift in Sources */,
+				E7BE07AB252A07320056F614 /* WebService.swift in Sources */,
 				E7BE079D252A071A0056F614 /* ContentView.swift in Sources */,
 				E7BE079B252A071A0056F614 /* ConsumeAPIApp.swift in Sources */,
 			);

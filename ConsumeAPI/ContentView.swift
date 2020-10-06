@@ -8,9 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var networkManager = NetworkManager();
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            List(networkManager.posts){ post in
+                HStack{
+                    NavigationLink(
+                        destination: DetailView(url: post.url),
+                        label: {
+                            Text(String(post.points))
+                            Text(post.title)
+                        })
+                
+                }
+            }.onAppear {
+                self.networkManager.fetchData()
+            }
+            .navigationTitle("News")
+        }
     }
 }
 
